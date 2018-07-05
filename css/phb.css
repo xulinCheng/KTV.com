@@ -1,0 +1,193 @@
+@import url(base.css);
+body {
+  width: 100%;
+  height: 100%;
+  background: url("../img/1.png") no-repeat;
+  background-size: 100%; }
+  body .fiexd {
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: url("../img/1.png") no-repeat;
+    background-size: 100%;
+    padding: 0 .24rem;
+    box-sizing: border-box; }
+    body .fiexd header {
+      width: 100%;
+      height: .88rem;
+      color: #fff;
+      padding: .24rem .24rem 0;
+      box-sizing: border-box; }
+      body .fiexd header .head {
+        width: 100%;
+        height: .88rem;
+        line-height: .88rem;
+        text-align: center;
+        display: flex; }
+        body .fiexd header .head i {
+          display: inline-block;
+          font-size: .42rem;
+          float: left; }
+        body .fiexd header .head span {
+          width: 6.02rem;
+          height: .88rem;
+          font-size: .36rem; }
+    body .fiexd .fl {
+      width: 100%;
+      height: 1.2rem;
+      padding: .2rem .24rem 0;
+      box-sizing: border-box; }
+      body .fiexd .fl .fl_top {
+        width: 100%;
+        height: .42rem;
+        color: #fff;
+        margin-bottom: .1rem; }
+        body .fiexd .fl .fl_top ul {
+          display: flex;
+          justify-content: space-between;
+          padding-left: .14rem;
+          padding-right: .14rem;
+          box-sizing: border-box; }
+          body .fiexd .fl .fl_top ul li {
+            font-size: .22rem;
+            line-height: .42rem;
+            font-weight: bold; }
+      body .fiexd .fl .fl_bottom {
+        width: 100%;
+        height: .6rem;
+        background: #FFF;
+        border-radius: .1rem; }
+        body .fiexd .fl .fl_bottom ul {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          border-radius: .1rem;
+          padding: .04rem;
+          box-sizing: border-box; }
+          body .fiexd .fl .fl_bottom ul li {
+            width: 33.3%;
+            height: 100%;
+            text-align: center;
+            font-size: .26rem;
+            line-height: .6rem; }
+          body .fiexd .fl .fl_bottom ul li:nth-child(2) {
+            background: #fe3191;
+            color: #fff; }
+    body .fiexd .swiper-container {
+      width: 100%;
+      height: 3.6rem;
+      margin-top: .14rem;
+      position: relative;
+      z-index: 2;
+      overflow: hidden; }
+      body .fiexd .swiper-container .swiper-wrapper {
+        width: 100%;
+        height: 3.4rem;
+        padding: .24rem .24rem;
+        box-sizing: border-box;
+        -webkit-transition-timing-function: linear;
+        margin: 0 auto; }
+        body .fiexd .swiper-container .swiper-wrapper .swiper-slide {
+          width: 5rem;
+          height: 3.18rem;
+          border-radius: .1rem;
+          border: .06rem solid #fff;
+          box-shadow: 0 0 0.1rem 0.05rem rgba(244, 158, 196, 0.5);
+          margin-left: 0rem;
+          margin-right: 0rem; }
+          body .fiexd .swiper-container .swiper-wrapper .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 3.18rem; }
+      body .fiexd .swiper-container .search {
+        width: 4.6rem;
+        height: .68rem;
+        position: absolute;
+        bottom: .3rem;
+        left: 1rem;
+        background: #fff;
+        z-index: 1;
+        display: flex;
+        border: .06rem solid #fff;
+        border-radius: .34rem; }
+        body .fiexd .swiper-container .search .search_left {
+          width: 3.6rem;
+          height: 100%;
+          border-top-left-radius: .34rem;
+          border-bottom-left-radius: .34rem; }
+          body .fiexd .swiper-container .search .search_left input {
+            border-top-left-radius: .34rem;
+            border-bottom-left-radius: .34rem;
+            outline: none;
+            border: none;
+            padding-left: .3rem;
+            box-sizing: border-box;
+            font-size: .24rem;
+            line-height: .68rem; }
+        body .fiexd .swiper-container .search .search_right {
+          width: 1rem;
+          height: 100%;
+          background: #fe3191;
+          border-top-right-radius: .34rem;
+          border-bottom-right-radius: .34rem;
+          line-height: .68rem;
+          text-align: center; }
+          body .fiexd .swiper-container .search .search_right i {
+            font-size: .42rem;
+            color: #fff; }
+  body .list {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 6.2rem;
+    left: 0;
+    padding: 0 .24rem;
+    box-sizing: border-box;
+    z-index: 1; }
+    body .list ul {
+      width: 100%; }
+      body .list ul li {
+        width: 100%;
+        height: 1.56rem;
+        border-bottom: 1px dotted #ccc;
+        display: flex; }
+        body .list ul li .list_left {
+          width: 1.16rem;
+          height: 1.56rem;
+          border: .08rem solid #fff;
+          border-radius: .1rem;
+          position: relative;
+          overflow: hidden;
+          margin-right: .3rem; }
+          body .list ul li .list_left .hide {
+            width: 1.05rem;
+            height: 1.05rem;
+            background: #fe3191;
+            border-radius: .1rem;
+            transform: rotate(10deg);
+            position: absolute;
+            top: .28rem;
+            left: 0; }
+          body .list ul li .list_left img {
+            display: block;
+            width: 1.05rem;
+            height: 1.05rem;
+            border-radius: .1rem;
+            position: absolute;
+            top: .28rem;
+            left: 0; }
+        body .list ul li .list_right {
+          width: 3rem;
+          height: 100%;
+          padding-top: .48rem;
+          box-sizing: border-box; }
+          body .list ul li .list_right h4 {
+            font-size: .26rem;
+            color: #58606d; }
+          body .list ul li .list_right p {
+            color: #ccc; }
+            body .list ul li .list_right p span {
+              font-size: .16rem; }

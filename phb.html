@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/phb.css">
+        <link rel="stylesheet" href="https://at.alicdn.com/t/font_732334_xlwwskd9rqf.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <script src="js/rem.js"></script>
+        <script src="js/swiper.min.js"></script>
+    </head>
+    <body>
+        <div class="fiexd">
+    	<header>
+    		<div class="head"><i class="iconfont icon-fanhui"></i><span>排行榜</span></div>
+    	</header>
+    	<!-- 分类栏 -->
+    	<section class="fl">
+    		<div class="fl_top">
+    			<ul>
+    				<li>歌手</li>
+    				<li><i class="iconfont "></i>排行</li>
+    				<li>常唱</li>
+    				<li>推荐歌曲</li>
+    			</ul>
+    		</div>
+    		<div class="fl_bottom">
+    			<ul>
+    				<li>月排行</li>
+    				<li>季排行</li>
+    				<li>年排行</li>
+    			</ul>
+    		</div>
+    	</section>
+    	<!-- banner -->
+    	<section class="swiper-container">
+    		<div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/banner2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/banner3.jpg" alt="">
+                </div>
+            </div>
+    		<div class="search">
+    			<div class="search_left">
+    				<input type="text" placeholder="演员--薛之谦">
+    			</div>
+    			<div class="search_right">
+    				<i class="iconfont icon-jia1"></i>
+    			</div>
+    		</div>
+    	</section>
+        </div>
+    	<!-- 内容列表 -->
+    	<section class="list">
+    		<ul>
+    			<li>
+    				<div class="list_left">
+    					<div class="hide"></div>
+    					<img src="img/list-img.jpg" alt="">
+    				</div>
+    				<div class="list_right">
+    					<h4>歌手与演员--李荣浩</h4>
+    					<p>
+    						<span>04</span>′
+    						<span>52</span>″
+    					</p>
+    				</div>
+    			</li>
+    			<li>
+    				<div class="list_left">
+    					<div class="hide"></div>
+    					<img src="img/list-img.jpg" alt="">
+    				</div>
+    				<div class="list_right">
+    					<h4>歌手与演员--李荣浩</h4>
+    					<p>
+    						<span>04</span>′
+    						<span>52</span>″
+    					</p>
+    				</div>
+    			</li>
+    			<li>
+    				<div class="list_left">
+    					<div class="hide"></div>
+    					<img src="img/list-img.jpg" alt="">
+    				</div>
+    				<div class="list_right">
+    					<h4>歌手与演员--李荣浩</h4>
+    					<p>
+    						<span>04</span>′
+    						<span>52</span>″
+    					</p>
+    				</div>
+    			</li>
+                <li>
+                    <div class="list_left">
+                        <div class="hide"></div>
+                        <img src="img/list-img.jpg" alt="">
+                    </div>
+                    <div class="list_right">
+                        <h4>歌手与演员--李荣浩</h4>
+                        <p>
+                            <span>04</span>′
+                            <span>52</span>″
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="list_left">
+                        <div class="hide"></div>
+                        <img src="img/list-img.jpg" alt="">
+                    </div>
+                    <div class="list_right">
+                        <h4>歌手与演员--李荣浩</h4>
+                        <p>
+                            <span>04</span>′
+                            <span>52</span>″
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="list_left">
+                        <div class="hide"></div>
+                        <img src="img/list-img.jpg" alt="">
+                    </div>
+                    <div class="list_right">
+                        <h4>歌手与演员--李荣浩</h4>
+                        <p>
+                            <span>04</span>′
+                            <span>52</span>″
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="list_left">
+                        <div class="hide"></div>
+                        <img src="img/list-img.jpg" alt="">
+                    </div>
+                    <div class="list_right">
+                        <h4>歌手与演员--李荣浩</h4>
+                        <p>
+                            <span>04</span>′
+                            <span>52</span>″
+                        </p>
+                    </div>
+                </li>
+    		</ul>
+    	</section>
+        <script>        
+          var mySwiper = new Swiper ('.swiper-container', {
+                autoplay:true,
+                speed:1000,
+                loop : true,
+                pagination: '.swiper-pagination',
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                slidesPerGroup : 1,
+                 freeMode:true,
+                coverflow: {
+                    rotate: 0,// 旋转的角度
+                    stretch: -100,// 拉伸   图片间左右的间距和密集度
+                    depth: 100,// 深度   切换图片间上下的间距和密集度
+                    modifier: 10,// 修正值 该值越大前面的效果越明显
+                    slideShadows : false// 页面阴影效果
+                }
+          })
+          </script>
+    </body>
+</html>
